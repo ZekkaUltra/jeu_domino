@@ -1,0 +1,147 @@
+body {
+    background-color: green;
+}
+.container_scene_de_depart {
+    margin-left: 40px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: repeat(7, 90px);
+    grid-template-columns: repeat(7, 180px);
+    grid-template-areas: 
+        "d7 . . . . . . "
+        "d6 d13 . . . b ."
+        "d5 d12 d18 . . . ."
+        "d4 d11 d17 d22 . . ."
+        "d3 d10 d16 d21 d25 . ."
+        "d2 d9 d15 d20 d24 d27 ."
+        "d1 d8 d14 d19 d23 d26 d28";
+}
+#domino1 {
+    grid-area: d1;
+    
+    transform: rotate(90deg);
+    } 
+#domino2 {
+    grid-area: d2;
+    transform: rotate(90deg);
+    } 
+#domino3 {
+    grid-area: d3;
+    transform: rotate(90deg);
+    } 
+#domino4 {
+    grid-area: d4;
+    transform: rotate(90deg);
+    } 
+#domino5 {
+    grid-area: d5;
+    transform: rotate(90deg);
+    } 
+#domino6 {
+    grid-area: d6;
+    transform: rotate(90deg);
+    
+    } 
+#domino7 {
+    grid-area: d7; 
+    transform: rotate(90deg);
+    } 
+#domino8 {
+    grid-area: d8;  
+    transform: rotate(90deg);
+    } 
+#domino9 {
+    grid-area: d9;
+    transform: rotate(90deg);
+    } 
+#domino10 {
+    grid-area: d10;
+    transform: rotate(90deg);
+    } 
+#domino11 {
+    grid-area: d11;  
+    transform: rotate(90deg);
+    } 
+#domino12 {
+    grid-area: d12; 
+    transform: rotate(90deg);
+    } 
+#domino13 {
+    grid-area: d13; 
+    transform: rotate(90deg);
+    } 
+#domino14 {
+    grid-area: d14;  
+    transform: rotate(90deg);
+    } 
+#domino15 {
+    grid-area: d15;  
+    transform: rotate(90deg);
+    } 
+#domino16 {
+    grid-area: d16;
+    transform: rotate(90deg);
+    } 
+#domino17 {
+    grid-area: d17;
+    transform: rotate(90deg);
+    } 
+#domino18 {
+    grid-area: d18;
+    transform: rotate(90deg);
+    } 
+#domino19 {
+    grid-area: d19;
+    transform: rotate(90deg);
+    } 
+#domino20 {
+    grid-area: d20;
+    transform: rotate(90deg);
+    } 
+#domino21 {
+    grid-area: d21;
+    transform: rotate(90deg);
+    } 
+#domino22 {
+    grid-area: d22;
+    transform: rotate(90deg);
+    } 
+#domino23 {
+    grid-area: d23;
+    transform: rotate(90deg);
+    } 
+#domino24 {
+    grid-area: d24;
+    transform: rotate(90deg);
+    } 
+#domino25 {
+    grid-area: d25;
+    transform: rotate(90deg);
+    } 
+#domino26 {
+    grid-area: d26;
+    transform: rotate(90deg);
+    } 
+#domino27 {
+    grid-area: d27;
+    transform: rotate(90deg);
+    } 
+#domino28 {
+    grid-area: d28;
+    transform: rotate(90deg);
+    } 
+#zone_player1 {
+    
+}
+#zone_player2 {
+    
+}
+#zone_player3 {
+    
+}
+#zone_player4 {
+    
+}
+#jouer {
+    grid-area: b;
+}
